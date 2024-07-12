@@ -1,0 +1,29 @@
+<!--aula 3 fazendo uns comandos simples de JavaScript dentro do html
+usando o .toFixed para formataçao de numero
+replace para substituiçao -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3</title>
+
+    <style>
+        body{
+            background-color: #333;
+            font-family: sans-serif;
+            font-size: 25px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+      var  n = window.prompt("digite o numero para a formataçao")
+     document.write(`o numero formatado fica assim <strong>${n.fixed(2)}</strong>`)
+
+    </script>
+</body>
+</html>
